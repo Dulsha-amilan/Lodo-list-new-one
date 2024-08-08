@@ -4,9 +4,9 @@
     
         <x-slot name="logo">
             <div class="flex">
-                <!-- Animation Container -->
+               
                 <div id="lottie-container" class="w-1/2 h-500px">
-                    <!-- Lottie Animation Script -->
+                  
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
                     <script>
                         document.addEventListener("DOMContentLoaded", function () {
@@ -80,4 +80,11 @@
             </div>
         </x-slot>
     </x-authentication-card>
+
+     <!-- Footer starts here -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p class="text-base">&copy; {{ date('Y') }} Your Company Name. All rights reserved.</p>
+    </div>
+</footer>
 </x-guest-layout>
